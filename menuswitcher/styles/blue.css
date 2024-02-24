@@ -1,0 +1,59 @@
+/* pink theme */
+
+body {
+    background: linear-gradient(to bottom, #3e54e7 0%, #69e7f8 105%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #343434;
+}
+
+#menu {
+    border: 3px solid white;
+    width: 640px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f0f0f0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    border-bottom: 1px solid #343434;
+}
+
+h3 {
+    text-align: right;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+span {
+    float: left;
+}
+
+p {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+p:first-of-type {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#smallprint {
+    margin-top: 50px;
+    text-align: center;
+    line-height: 200%;
+    font-size: 80%;
+}
